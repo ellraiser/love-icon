@@ -8,7 +8,7 @@ Zero-dependency icon convertor to turn `.png` into `.ico` and `.icns` files for 
 ## Usage
 Simply require the module in your game, some usage examples are shown below. You can also run the `main.lua` file with LÖVE to see some basic examples in action.
 
-As this module uses the LÖVE filesystem, your file paths should be relative to [save directory](https://love2d.org/wiki/love.filesystem.getSaveDirectory) as they are passed directly to `love.filesystem.x`.
+As this module uses the LÖVE filesystem, your file paths should be relative to [save directory](https://love2d.org/wiki/love.filesystem.getSaveDirectory) or your project path as they are passed directly to `love.filesystem.x`.
 
 ```lua
 -- load the module
